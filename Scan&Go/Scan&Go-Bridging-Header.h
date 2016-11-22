@@ -3,3 +3,4 @@
 //
 
 #import <AVFoundation/AVFoundation.h>
+#import <TesseractOCR/TesseractOCR.h>

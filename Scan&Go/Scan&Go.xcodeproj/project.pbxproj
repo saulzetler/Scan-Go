@@ -7,17 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9CCE975D5DBA0B36F7310C8C /* Pods_Scan_Go.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66A94F11C99934B420FEF519 /* Pods_Scan_Go.framework */; };
 		E43219741DB81AC9001A673A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43219731DB81AC9001A673A /* AppDelegate.swift */; };
 		E43219761DB81AC9001A673A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43219751DB81AC9001A673A /* ViewController.swift */; };
 		E43219791DB81AC9001A673A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E43219771DB81AC9001A673A /* Main.storyboard */; };
 		E432197B1DB81AC9001A673A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E432197A1DB81AC9001A673A /* Assets.xcassets */; };
 		E432197E1DB81AC9001A673A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E432197C1DB81AC9001A673A /* LaunchScreen.storyboard */; };
 		E432198A1DB81BBA001A673A /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = E43219891DB81BBA001A673A /* tessdata */; };
+		E4EA0C3B1DE3B73E00604ED3 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E4EA0C3A1DE3B73E00604ED3 /* libz.tbd */; };
+		E4EA0C3F1DE3BDB300604ED3 /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = E4EA0C3E1DE3BDB300604ED3 /* tessdata */; };
 		E4EEEE911DBAAAFA001BC8EB /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EEEE901DBAAAFA001BC8EB /* InitialViewController.swift */; };
 		E4F486DA1DBAB32F0067EF5F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4F486D91DBAB32F0067EF5F /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		66A94F11C99934B420FEF519 /* Pods_Scan_Go.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Scan_Go.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90E45BCB3DEF32E0F559D60A /* Pods-Scan&Go.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scan&Go.release.xcconfig"; path = "Pods/Target Support Files/Pods-Scan&Go/Pods-Scan&Go.release.xcconfig"; sourceTree = "<group>"; };
+		A5C307AFB965460F6727828F /* Pods-Scan&Go.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scan&Go.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Scan&Go/Pods-Scan&Go.debug.xcconfig"; sourceTree = "<group>"; };
 		E40902501DBD9BF4008D769A /* Scan&Go-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Scan&Go-Bridging-Header.h"; sourceTree = "<group>"; };
 		E43219701DB81AC9001A673A /* Scan&Go.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Scan&Go.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E43219731DB81AC9001A673A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -27,6 +33,10 @@
 		E432197D1DB81AC9001A673A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E432197F1DB81AC9001A673A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E43219891DB81BBA001A673A /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
+		E4EA0C381DE3B72100604ED3 /* libz.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.dylib; path = ../../../../../../../usr/lib/libz.1.dylib; sourceTree = "<group>"; };
+		E4EA0C3A1DE3B73E00604ED3 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		E4EA0C3C1DE3B81E00604ED3 /* TesseractOCR.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TesseractOCR.framework; path = "Pods/../build/Debug-iphoneos/TesseractOCRiOS/TesseractOCR.framework"; sourceTree = "<group>"; };
+		E4EA0C3E1DE3BDB300604ED3 /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; name = tessdata; path = ../tessdata; sourceTree = "<group>"; };
 		E4EEEE901DBAAAFA001BC8EB /* InitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
 		E4F486D91DBAB32F0067EF5F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -36,13 +46,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4EA0C3B1DE3B73E00604ED3 /* libz.tbd in Frameworks */,
 				E4F486DA1DBAB32F0067EF5F /* AVFoundation.framework in Frameworks */,
+				9CCE975D5DBA0B36F7310C8C /* Pods_Scan_Go.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		62DCA67E3DBF840C350573F5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A5C307AFB965460F6727828F /* Pods-Scan&Go.debug.xcconfig */,
+				90E45BCB3DEF32E0F559D60A /* Pods-Scan&Go.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E43219671DB81AC9001A673A = {
 			isa = PBXGroup;
 			children = (
@@ -50,6 +71,7 @@
 				E43219711DB81AC9001A673A /* Products */,
 				E43219871DB81B95001A673A /* Frameworks */,
 				E40902501DBD9BF4008D769A /* Scan&Go-Bridging-Header.h */,
+				62DCA67E3DBF840C350573F5 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +86,7 @@
 		E43219721DB81AC9001A673A /* Scan&Go */ = {
 			isa = PBXGroup;
 			children = (
+				E4EA0C3E1DE3BDB300604ED3 /* tessdata */,
 				E4EEEE8F1DBAAAE2001BC8EB /* View Controllers */,
 				E43219731DB81AC9001A673A /* AppDelegate.swift */,
 				E43219771DB81AC9001A673A /* Main.storyboard */,
@@ -77,7 +100,11 @@
 		E43219871DB81B95001A673A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E4EA0C3C1DE3B81E00604ED3 /* TesseractOCR.framework */,
+				E4EA0C3A1DE3B73E00604ED3 /* libz.tbd */,
+				E4EA0C381DE3B72100604ED3 /* libz.1.dylib */,
 				E4F486D91DBAB32F0067EF5F /* AVFoundation.framework */,
+				66A94F11C99934B420FEF519 /* Pods_Scan_Go.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -107,9 +134,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E43219821DB81AC9001A673A /* Build configuration list for PBXNativeTarget "Scan&Go" */;
 			buildPhases = (
+				B6A8967891D780E837A37D86 /* [CP] Check Pods Manifest.lock */,
 				E432196C1DB81AC9001A673A /* Sources */,
 				E432196D1DB81AC9001A673A /* Frameworks */,
 				E432196E1DB81AC9001A673A /* Resources */,
+				E39E5B1EA340AA52716394D2 /* [CP] Embed Pods Frameworks */,
+				183D8DBD825A5C7AE5505716 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -134,6 +164,7 @@
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = 59THX85PFH;
 						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -162,12 +193,61 @@
 			files = (
 				E432197E1DB81AC9001A673A /* LaunchScreen.storyboard in Resources */,
 				E432198A1DB81BBA001A673A /* tessdata in Resources */,
+				E4EA0C3F1DE3BDB300604ED3 /* tessdata in Resources */,
 				E432197B1DB81AC9001A673A /* Assets.xcassets in Resources */,
 				E43219791DB81AC9001A673A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		183D8DBD825A5C7AE5505716 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Scan&Go/Pods-Scan&Go-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6A8967891D780E837A37D86 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E39E5B1EA340AA52716394D2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Scan&Go/Pods-Scan&Go-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E432196C1DB81AC9001A673A /* Sources */ = {
@@ -294,14 +374,17 @@
 		};
 		E43219831DB81AC9001A673A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5C307AFB965460F6727828F /* Pods-Scan&Go.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 59THX85PFH;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/TesseractOCRiOS",
 				);
 				INFOPLIST_FILE = "Scan&Go/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -315,14 +398,17 @@
 		};
 		E43219841DB81AC9001A673A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90E45BCB3DEF32E0F559D60A /* Pods-Scan&Go.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 59THX85PFH;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/TesseractOCRiOS",
 				);
 				INFOPLIST_FILE = "Scan&Go/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
